@@ -1,0 +1,52 @@
+# Gradle y Kotlin
+.gradle/
+.gradle-user/
+.kotlin/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Configuración local del SDK y del emulador
+local.properties
+.android-user/
+.android-sdk-home/
+*.avd/
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+captures/
+
+# Visual Studio Code
+.vscode/
+
+# Compilación nativa
+.externalNativeBuild/
+.cxx/
+
+# Artefactos generados
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.hprof
+
+# Firmas y credenciales locales
+*.jks
+*.keystore
+keystore.properties
+
+# Archivos temporales y registros
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Firebase Crashlytics
+firebaseCrashlytics-build.properties
